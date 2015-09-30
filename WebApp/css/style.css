@@ -483,6 +483,10 @@ input[type=submit]:hover {
     text-align: right;
     overflow: hidden;
 }
+.friends .thumb div {
+	background-size: cover;
+	height: 100%;
+}
 .friends .thumb img {
 	position: absolute;
 	top: 0;
