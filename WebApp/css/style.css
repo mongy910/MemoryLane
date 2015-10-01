@@ -176,7 +176,7 @@ label {
 }
 input {
 	font-size: 20px;
-	font-family: "Aaargh", Arial;
+	font-family: "Argh", Arial;
 }
 input[type=submit] {
 	background: #EEEEEE;
@@ -263,7 +263,7 @@ input[type=submit]:hover {
 
 
 
-/* NEWS FEED MAIN ELEMENT */
+/* MATTHEW SECTION*/
 .container{
 	display: block;
 	width: 100%;
@@ -374,9 +374,90 @@ input[type=submit]:hover {
 }
 
 
-.mapText{
 
+
+
+/*NEWS FEED MAIN ELEMENT*/
+.containerNF{
+	display: block;
+	width: 75%;
+	height: 19%;
+	margin-left: 21%;
+	margin-bottom: 2%;
 }
+
+.authorElementNF{
+	display: inline-block;
+	float: left;
+	height: 100%;
+}
+
+.proPicResizeNF{
+	width: 70px;
+	height: auto;
+	border: 2px solid black;
+}
+
+.proPicNameNF{
+	text-align: center;
+}
+
+.panoramaElementNF{
+	display: inline-block;
+	line-height: 0;
+	margin-left: .5%;
+	width: 55%;
+	height: 100%;
+	border: 2px solid black;
+	font-size: 1em;
+}
+
+.panoramaResizeNF{
+	width: 100%;
+	height: auto;
+	border-top: 2px solid black;
+	display: inline-block;
+    background-color: black;
+    padding: 0;
+     -webkit-transition: all .75s linear;
+       -moz-transition: all .75s linear;
+        -ms-transition: all .75s linear;
+         -o-transition: all .75s linear;
+            transition: all .75s linear;
+}
+
+.panoramaHeaderNF{
+	width:100%;
+	height: 10%;
+	clear:both;
+}
+
+.mapsElementNF{
+	position: relative;
+	display: inline-block;
+	line-height: 0;
+	margin-left: .5%;
+	width: 16%;
+	height: 100%;
+	border: 2px solid black;
+}
+
+.mapsResizeNF{
+	width: 100%;
+	height: 100%;
+}
+
+.panoramaResizeNF:hover{
+    opacity: .4;
+}
+
+.imgWrapNF{
+	background-color: black;
+}
+
+
+
+
 
 /* FRIENDS WIDGET */
 .widget {
@@ -401,6 +482,10 @@ input[type=submit]:hover {
     position: relative;
     text-align: right;
     overflow: hidden;
+}
+.friends .thumb div {
+	background-size: cover;
+	height: 100%;
 }
 .friends .thumb img {
 	position: absolute;
